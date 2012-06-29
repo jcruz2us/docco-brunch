@@ -4,11 +4,11 @@ docco = require 'docco'
 
 module.exports = class DoccoRunner
   brunchPlugin: yes
-  type: 'documentation'
+  type: 'javascript'
   extension: 'js'
 
   constructor: (@config) ->
     null
 
-  doccofy: (data, path, callback) ->
+  compile: (data, path, callback) ->
       docco.generate_documentation(path)

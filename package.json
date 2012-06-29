@@ -1,8 +1,12 @@
 {
   "name": "docco-brunch",
   "version": "0.0.1",
-  "description": "Generates documentation for javascript files",
+  "description": "Adds DOCCO support to brunch.",
   "main": "/lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jcruz2us/docco-brunch.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

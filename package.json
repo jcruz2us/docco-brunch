@@ -2,7 +2,7 @@
   "name": "docco-brunch",
   "version": "0.0.1",
   "description": "Adds DOCCO support to brunch.",
-  "main": "/lib/index",
+  "main": "./lib/index",
   "repository": {
     "type": "git",
     "url": "git@github.com:jcruz2us/docco-brunch.git"

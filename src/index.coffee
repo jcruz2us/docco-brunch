@@ -11,7 +11,8 @@ module.exports = class DoccoRunner
     null
 
   compile: (data, path, callback) ->
-  	 try
+    console.log "hey"
+    try
       docco.generate_documentation path
     catch error
       callback error

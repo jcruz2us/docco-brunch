@@ -1,6 +1,6 @@
 sysPath = require 'path'
 
-docco = require './lib/docco.js'
+docco = require 'docco.js'
 
 
 module.exports = class DoccoRunner

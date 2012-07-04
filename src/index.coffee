@@ -10,7 +10,7 @@ module.exports = class DoccoRunner
   constructor: (@config) ->
     console.log "Docco Starting...."
     console.log "Processing: " + process.cwd()
-    child_process.exec process.cwd() + "/node_modules/docco-brunch/node_modules/docco/bin/docco " + process.cwd() + "/app/*.js", (error, stdout, stderr) ->
+    child_process.exec process.cwd() + "/node_modules/docco-brunch/node_modules/docco/bin/./docco " + process.cwd() + "/app/*.js", (error, stdout, stderr) ->
         console.log "stdout: " + stdout
         console.log "stderr: " + stderr
         console.log "exec error: " + error  if error isnt null

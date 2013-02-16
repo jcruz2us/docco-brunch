@@ -2,7 +2,7 @@
 Adds DOCCO support to [brunch](http://brunch.io).
 
 ## Usage
-Add `"doco-brunch": "x.y.z"` to `package.json` of your brunch app.
+Add `"docco-brunch": "x.y.z"` to `package.json` of your brunch app.
 
 Pick a plugin version that corresponds to your minor (y) brunch version.
 

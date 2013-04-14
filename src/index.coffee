@@ -8,5 +8,5 @@ module.exports = class DoccoRunner
   extension: 'js'
 
   constructor: (@config) ->
-    child_process.exec  "node_modules/docco-brunch/node_modules/docco/bin/docco " + process.cwd() + "/app/*.js", (error, stdout, stderr) ->
+    child_process.exec  "node_modules/docco-brunch/node_modules/docco/bin/docco " + process.cwd() + "/app/*.coffee", (error, stdout, stderr) ->
         console.log "exec error: " + error  if error isnt null

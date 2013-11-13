@@ -1,13 +1,13 @@
 {
   "name": "docco-brunch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds DOCCO support to brunch.",
   "main": "./lib/index",
   "author": "Jorge Cruz",
   "license": "BSD",
   "dependencies": {
     "coffee-script": "1.3.3",
-    "docco": "0.3.0"
+    "docco": "~0.6.2"
   },
   "scripts": {
     "postinstall": "node setup.js postinstall",

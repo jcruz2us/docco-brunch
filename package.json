@@ -1,6 +1,6 @@
 {
   "name": "docco-brunch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds DOCCO support to brunch.",
   "main": "./lib/index",
   "author": "Jorge Cruz",
